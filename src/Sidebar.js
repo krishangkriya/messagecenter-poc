@@ -83,7 +83,7 @@ function Sidebar() {
 
       {/* Button -> Tweet */}
       <Button variant="outlined" className="sidebar__tweet" fullWidth>
-       Contact Vendors
+       Contact Suppliers
       </Button>
     </div>
   );

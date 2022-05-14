@@ -32,7 +32,7 @@ function TweetBox() {
           <input
             onChange={(e) => setTweetMessage(e.target.value)}
             value={tweetMessage}
-            placeholder="Start connecting with Vendors!"
+            placeholder="Start connecting with Buyer!"
             type="text"
           />
         </div>

@@ -49,7 +49,7 @@ function TweetBox() {
           type="submit"
           className="tweetBox__tweetButton"
         >
-          Connect
+          Promote
         </Button>
       </form>
     </div>

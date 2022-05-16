@@ -29,6 +29,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import { deepOrange, green } from '@material-ui/core/colors';
 import SettingsInputSvideoTwoToneIcon from '@material-ui/icons/SettingsInputSvideoTwoTone';
 import Typography from '@material-ui/core/Typography';
+import ImportContactsIcon from '@mui/icons-material/ImportContacts';
+import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
+import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -59,22 +62,21 @@ function Sidebar() {
     return (
     <div className="sidebar">
        <ListItem>
-        <SettingsInputSvideoTwoToneIcon className="sidebar__twitterIcon" />
-       <Typography className="sidebar__titleIcon" >TraderLink</Typography>
+        <AlternateEmailIcon className="sidebar__twitterIcon" />
+       <Typography className="sidebar__titleIcon" ></Typography>
 
        </ListItem>
 
 
       <SidebarOption active Icon={HomeIcon} text="Home" />
       <SidebarOption Icon={MailOutlineIcon} text="Private Inbox" />
-{/*
       <SidebarOption Icon={SendIcon} text="Sent" />
-*/}
       <SidebarOption Icon={QuestionAnswerSharpIcon} text="Leads" />
-      <SidebarOption Icon={AddShoppingCartSharpIcon} text="Orders" />
+      <SidebarOption Icon={AttachMoneyIcon} text="Orders" />
       <SidebarOption Icon={SearchIcon} text="Explore Promotions" />
       <SidebarOption Icon={NotificationsNoneIcon} text="Notifications" />
-      <SidebarOption Icon={MailOutlineIcon} text="Contacts" />
+      <SidebarOption Icon={ImportContactsIcon} text="Contacts" />
+
 {/*
       <SidebarOption Icon={BookmarkBorderIcon} text="Bookmarks" />
 */}
